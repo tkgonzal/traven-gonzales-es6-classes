@@ -8,12 +8,14 @@ methods on the **mpUI** variable in the console.
 ### playSong(libI, projI)
 * **libI**: The index of a Project within the MusicPlayer library  
 * **projI**: The index of a song within the Project at the specified **libI**  
+
 Attempts to play a song at the **projI** index of the Project at the **libI** index 
 in the library. Also sets the playback of the MusicPlayer to the Project at **libI**
 
 ### queueSong(libI, projI)
 * **libI**: The index of a Project within the MusicPlayer library  
 * **projI**: The index of a song within the Project at the specified **libI**  
+
 Given the index of a project in the library and the index of a song in 
 that project, adds the song to the queue
 
@@ -31,22 +33,26 @@ Ends the playback of the current album.
 ## Library Editing Methods
 ### addProj(proj)
 * **proj**: A Single, EP, or Album object *(Please refer to their respective class files for reference)*  
+
 Adds the given Project object to the library.
 
 ### removeProj(i)
 * **i**: The index of a project in the library  
+
 Attempts to remove the Project in the MusicPlayer library at index **i**.
 
 ### addSongToProj(libI, song, projI)
 * **libI**: The index of a Project within the MusicPlayer library  
 * **song**: A Song object *(Please refer to the Song.js file for reference)*  
 * **projI**: An optional index to specify where in the project to add the song  
+
 Attempts to add a song to the project at the **libI** index in the library. Will
 insert into a specific index if a **projI** index is specified.
 
 ### removeSongFromProj(libI, projI)
 * **libI**: The index of a Project within the MusicPlayer library  
-* **projI**: The index of a song within the Project at the specified **libI**  
+* **projI**: The index of a song within the Project at the specified **libI**
+
 Attempts to remove the Song at index **projI** in the Project at index **libI**
 in the MusicPlayer library
 
