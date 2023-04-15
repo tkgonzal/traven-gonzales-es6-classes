@@ -1,0 +1,34 @@
+/* Use to color code data elements on the status display */
+.single {
+    color: forestgreen;
+}
+
+.EP {
+    color: blueviolet;
+}
+
+.album {
+    color: firebrick;
+}
+
+.error {
+    background-color: red;
+    color: white;
+}
+
+.song {
+    color: #535a80;
+}
+
+.artist {
+    color: #2c2cb1;
+}
+
+.case-status {
+    color: gray;
+}
+
+.library, .proj, .queue {
+    list-style-type: circle;
+}
+

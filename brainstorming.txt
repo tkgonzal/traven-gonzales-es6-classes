@@ -1,0 +1,87 @@
+IDEAS FOR DIFFERENT CLASSES FOR DIFFERENT APPLICATIONS
+1.) Music Player
+-UI Class
+    -Members
+        -MusicPlayer
+        -StatusLog Dom Element
+    -Methods
+        -Play Song
+        -Play Next Song
+        -Pause
+        -loop
+        -Queue Song
+        -Display Project
+        -Display Library
+        -Display Queue
+-Music Player Class
+    -Members
+        -Playing flag
+        -Queue for songs to play next
+        -inProject flag (specifies if playing song from a project)
+        -loop flag
+    -Methods
+        -Play next song
+        -Add project
+        -toggle play
+        -add song to Queue
+        -toggle loop
+        -Display Songs
+        -Delete albums
+        -Add album
+-Project Class (For singles, albums, eps)
+    -Members
+        -Title
+        -Artist
+        -Array of songs
+    -Methods
+        -Add song
+        -Remove song
+        -Get Project Type (Will act as purely virtual method, returns if project is single, ep, or album)
+-EP
+    -Inherits from Project
+-Single
+    -Inherits from Project
+-Album
+    -Inherits from Project
+-Song Class
+    -Members
+        -Title
+        -Artist
+    -Methods
+        -Play song
+2.) TTRPG Battle Simulator (Only 2 People)
+-Sim Class
+    -Members
+        -Initiative (Aray of all creatures participating and their order in combat)
+    -Methods
+        -Run sim (has each creature fight until one remains)
+        -Process Turn (has each creature attempt to atack the other)
+-Creature Class
+    -Members
+        -Name
+        -AC
+        -HP
+        -Attack
+    -Methods
+        -Attacks
+-Attack
+    -Members
+        -Attack modifier (Adds to attack roll)
+        -Damage dice (specifies size of die to roll for damage)
+3.) E-reader
+-E reader
+    -Members
+        -Book collection
+        -Current Book
+    -Methods
+        -Add book to collection
+        -Remove book from collection
+        -Open Book
+-Book
+    -Members
+        -Title
+        -Author
+        -Contents
+    -Methods
+        -Display contents
+

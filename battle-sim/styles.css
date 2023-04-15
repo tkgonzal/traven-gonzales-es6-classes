@@ -1,0 +1,22 @@
+/* These styles are largely for colour coding different data for the 
+   status log */
+.c1 {  /* Creature 1 */
+    color: blue;
+}
+
+.c2 {  /* Creature 2 */
+    color: orange;
+}
+
+.attack {
+    color: gray;
+}
+
+.damage {
+    color: firebrick;
+}
+
+.hp {
+    color: green;
+}
+
