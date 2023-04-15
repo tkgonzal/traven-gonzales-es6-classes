@@ -63,6 +63,7 @@ Displays the projects in the library and the index they're stored at.
 
 ### displayProj(i)
 * **i**: The index of a project in the library  
+
 Displays the songs of the Project at the index **i** in the library at displays the
 index they're stored at in the Project.
 
